@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import FeaturedImagePage from "../components/containers/Home/Featured-image"
+import SEO from "../components/seo"
 
 const links = [
   {
@@ -72,7 +73,13 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="MAN AND MAN ENTERPRISE"
+      description={data.site.siteMetadata.description}
+    />
+
     <FeaturedImagePage />
+
   </Layout>
 )
 
