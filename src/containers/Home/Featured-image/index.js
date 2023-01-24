@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import HeroImages from "./heroimage.png"
-import OurvisionImage from "../../../../../content/assets/OurVision.png"
-import WhoWeAreImage from "../../../../../content/assets/WhoWeAre.png"
+import OurvisionImage from "../../../../content/assets/OurVision.png"
+import WhoWeAreImage from "../../../../content/assets/WhoWeAre.png"
 
 const Main = styled.div`
   background-color: #00e0ff;
