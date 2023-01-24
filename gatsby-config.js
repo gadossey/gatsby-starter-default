@@ -9,10 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Biomass Cooking in Africa`,
+    author: `MITWORK GHANA LIMITED`,
+    about: `MAN AND MAN ENTERPRISE targets includes homes, restaurants, peri-urban and rural areas where charcoal and fire wood is predominantly the source of fuel.`,
+    description: `MAN AND MAN ENTERPRISE targets includes homes, restaurants, peri-urban and rural areas where charcoal and fire wood is predominantly the source of fuel.`,
+    siteUrl: `https://manandmanenterprise.com`,
   },
   plugins: [
     `gatsby-plugin-image`,
